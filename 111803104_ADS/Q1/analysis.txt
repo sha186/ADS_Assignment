@@ -1,0 +1,13 @@
+COMPLEXITY FOR FINDING A KEYWORD:
+
+    for(e = d->table[hash_function(key) % d->size]; e != 0; e = e->next) {
+        if(!strcmp(e->key, key)) {
+            /* got it */
+            return e->value;
+        }
+    }
+  
+This is the for loop for finding any keyword in the hashmap.
+Best case: The key is right at the beginning of the linked list to where it is mapped. The time complexity for this is O(1).
+Average case: The key is quite close to the beginning of the linked list to where it is mapped. As the hash function used is quite an optimum one, collisions are less and the linked list is usually short for lesser data. So the time complexity for this case is O(1).
+Worst case: All the keys map to a single location and a long linked list is formed. Here the time complexity is O(n).(Though this usually does not happen if the correct hash function is chosed.)

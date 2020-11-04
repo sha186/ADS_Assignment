@@ -1,0 +1,7 @@
+dictionary:a book or electronic resource that lists the words of a language and gives their meaning
+tree:a woody perennial plant, typically having a single stem or trunk
+code:a system of words, letters, figures, or symbols used to represent others, especially for the purposes of secrecy.
+complexity:the state or quality of being intricate or complicated.
+study:the devotion of time and attention to gaining knowledge of an academic subject
+work:activity involving mental or physical effort done in order to achieve a purpose or result.
+online:controlled by or connected to a computer.

@@ -1,0 +1,8 @@
+Number of words in the sample text files
+
+  File                 Words
+ data.txt		11349	
+ data1.txt		7424
+ data2.txt		3806
+ data3.txt		1430
+ 
